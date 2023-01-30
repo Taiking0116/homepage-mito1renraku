@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+body {
+	
+}
+
+h1{
+	font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
+	font-size: 30px;
+	text-align: center;
+}
+
+.introduction {
+background: #C4C4C4;
+margin : 0 auto 40px;
+width : 100%;
+font-size : 24px;
+text-align : center;
+overflow : hidden;
+}
+.introduction ul{
+margin:0;
+display : inline-block;
+padding-left: 100%;
+white-space : nowrap;
+line-height : 1em;
+animation : scrollSample02 20s linear infinite;
+}
+.introduction ul li{
+display:inline;
+margin:0 100px 0 0;
+}
+.introduction ul li:nth-child(1){
+font-weight:bold;
+}
+.introduction ul li:nth-child(2){
+color:#000000;
+font-weight:bold;
+}
+@keyframes scrollSample02{
+0% { transform: translateX(0)}
+100% { transform: translateX(-100%)}
+}
+
+.time-schedule {
+	text-align: center;
+	text-size: 30px;
+	font-family: "HG創英角ｺﾞｼｯｸUB", "HG創英ﾌﾟﾚｾﾞﾝｽEB", "HGP行書体", "UD デジタル 教科書体 N-B"
+}
+.time-schedule img { 
+	text-align: center;
+	width: 100vw;
+}
+
+.intro p{
+	font-family: "HG創英角ｺﾞｼｯｸUB", "HG創英ﾌﾟﾚｾﾞﾝｽEB", "HGP行書体", "UD デジタル 教科書体 N-B";
+	font-size: 30px;
+	text-align: center;
+}
+.intro p{
+	text-align:inherit;
+}
+.intro table{
+	font-size: 25px;
+	font-family:"HGP創英角ﾎﾟｯﾌﾟ体";
+	margin-left: auto;
+    margin-right: auto;
+}
+.intro a{
+	color: #000000
+}
+
+
+.hr1 {
+	border-top: 5px dotted #000;
+}
+.hr2 {
+	border-top: 5px dotted #000;
+}
+
+.contact p{
+	font-family: "HG創英角ｺﾞｼｯｸUB", "HG創英ﾌﾟﾚｾﾞﾝｽEB", "HGP行書体", "UD デジタル 教科書体 N-B"
+	
+}
+.contact p4{
+	color: #0600FF
+}
+
+.Line {
+	font-family: "HG創英角ｺﾞｼｯｸUB", "HG創英ﾌﾟﾚｾﾞﾝｽEB", "HGP行書体", "UD デジタル 教科書体 N-B";
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.github a{
+	font-family: "HG創英角ｺﾞｼｯｸUB", "HG創英ﾌﾟﾚｾﾞﾝｽEB", "HGP行書体", "UD デジタル 教科書体 N-B"
+}
